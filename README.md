@@ -21,13 +21,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-#### Meme Generator App
+## Meme Generator App
 
 It uses giphy api to fetch random gifs/memes and populates on the page.
 [giphy api](https://developers.giphy.com/docs/api/endpoint/#random)
 [get your own giphy api key](https://developers.giphy.com/dashboard/)
 
-## Learn More
+## Learn More About React
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
