@@ -27,6 +27,8 @@ It uses giphy api to fetch random gifs/memes and populates on the page.
 [giphy api](https://developers.giphy.com/docs/api/endpoint/#random)
 [get your own giphy api key](https://developers.giphy.com/dashboard/)
 
+get the key and set it to API_KEY varaible in src/app.js 
+
 ## Learn More About React
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

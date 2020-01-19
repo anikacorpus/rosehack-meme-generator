@@ -3,11 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-mdl';
 
+// get api key from giphy and set it to API_KEY variable.
+const API_KEY = ''
+
 const App = (props) => {
   const [memeUrl, setMemeUrl] = useState('');
 
   const fetchData = async () => {
-    const response = await fetch(   "https://media1.giphy.com/media/qaaSZMnWkufRu/200.webp?cid=790b7611b4b541fff75014c864546653ef73507d0ca8a49f&rid=200.webp",);
+    const response = await fetch(`https://api.giphy.com/v1/gifs/random?rating=PG-13&tag=funny&api_key=${API_KEY}`);
     response.json().then((responseObj) => {
         console.log(responseObj)
       setMemeUrl(responseObj.data.image_original_url);
